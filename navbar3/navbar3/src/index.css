@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Lobster+Two&family=Noto+Sans:wght@100&family=Open+Sans:wght@300&display=swap');
+
+.navbar{
+  display:flex;
+  
+}
+.navbar h1{
+  margin-left:300px;
+  text-align:center;
+  font-family:Oswald,sans-serif;
+  font-weight:lighter;
+  text-decoration: underline;
+}
+.navbar .links{
+  margin-left:400px;
+  margin-top:25px;
+}
+.links{
+  width:300px;
+  display: flex;
+  justify-content: space-around;
+  border-left: 1px solid black;
+  height:25px;
+}
+.links a{
+  font-family:"Noto Sans",sans-serif;
+  color:black;
+  padding-right:10px;
+  height:25px;
+  text-decoration:none;
+  padding-left: 10px;
+  transition: all .5s;
+}
+.links a:hover{
+  background-color: rgb(189, 5, 5);
+  color:#fff;
+  border-radius: 8px;
+}
+.line{
+  height:1px;
+  width:70%;
+  border-top:1px solid rgb(4, 4, 4);
+  position:absolute;
+  top:70px;
+  left:225px;
+}
+.blogs{
+  margin-left:125px;
+  font-family:"Dancing Script",sans-serif;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+.content{
+  padding:10px;
+  margin:25px auto;
+  width:60vw;
+  height:auto;
+  border-radius: 10px;
+  border-bottom:1px solid black;
+  box-shadow: 10px 10px 25px 10px rgb(204, 202, 202);
+  z-index: -1;
+  transition: all 2s;
+}
+.Actualblog{
+  padding:15px;
+  border-radius: 10px;
+}
+.Actualblog:hover{
+  box-shadow: 10px 10px 25px 10px rgb(225,225,225);
+}
+.Actualblog h2{
+  font-family:Oswald,sans-serif;
+  font-weight:lighter;
+  color:red;
+  text-decoration: underline;
+}
+.Actualblog p{
+  font-family:"Lobster Two",sans-serif;
+  color:grey;
+}
+
+.Actualblog p:last-of-type{
+  margin-left:25px;
+  color:black !important;
+  font-family:"Open Sans",sans-serif;
+}
+
+.form h2{
+  font-family: "Dancing Script",sans-serif;
+  color:#f00;
+  text-decoration: underline;
+  text-align:center;
+}
+.form-blog{
+  text-align: center;
+  line-height: 75px;
+}
+.form-blog label{
+  padding-right:15px;
+  font-family:Oswald,sans-serif;
+}
+.form-blog input{
+  border:none;
+  background: transparent;
+  border-bottom:1px solid black;
+  text-align:center;
+}
+.form-blog textarea{
+  border-radius:10px;
+}
+.form-blog select{
+  width:100px;
+}
+.form-blog button{
+  width:100px;
+  height:25px;
+  background: transparent;
+  border-radius: 10px;
+  font-family:"Lobster Two",sans-serif;
+}
+.form-blog button:hover{
+  cursor: pointer;
+}

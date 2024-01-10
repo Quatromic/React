@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "New website",
+      "body": "lorem ipsum",
+      "author": "mario"
+    },
+    {
+      "id": 2,
+      "title": "C++ Mapping and Dynasets",
+      "body": "So the code of cpp has become more and more .....",
+      "author": "Quatromic"
+    },
+    {
+      "id": "8c7e",
+      "title": "9/11 Incident",
+      "body": "There was an incident of the 9/11 during the pentagon attack by the Arabs",
+      "author": "mario"
+    }
+  ]
+}
